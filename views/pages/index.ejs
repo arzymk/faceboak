@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+
+<!--
+<div id="navwrapper">
+  <div id="navbar"> <table class="tablewrapper">
+      <tr>
+        <td class="row1">Email or Phone</td>
+        <td class="row1">Password</td>
+      </tr>
+      <tr>
+        <form action="/send" method="post">
+          <td><input type="text" class="inputtext" name="email">
+          </td>
+          <td><input type="password" class="inputtext" name="psw">
+          </td>
+          <td><input  id="button" type="submit" value="Log in"></td>
+        </form>
+      </tr>
+      <tr>
+        <td>
+          <div class="row2"><input type="checkbox" checked>Keep me logged in</div></td>
+        <td class="row2 h">Forgot your password?</td>
+    </table>
+
+    <h1 class="logowrapper">facebook</h1>
+
+  </div>
+</div>
+-->
+
+<div class="contaner-fluid">
+  <div class="title">
+    facebook
+  </div>
+</div>
+<div id="bg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="">
+        <form action="/send" method="post" class="form-inline ">
+          <div class="form-group col-md-4 col-md-offset-4 col-sm-12">
+            <input type="text" class="form-control" name="email" id="email" placeholder="Эл. адрес или телефон">
+          </div>
+          <div class="form-group col-md-4 col-md-offset-4 col-sm-12">
+            <input type="password" class="form-control" name="psw" id="pwd" placeholder="Пароль">
+          </div>
+          <div class="col-md-4 col-md-offset-4 col-sm-12">
+            <button type="submit" class="btn btn-default" id="submit">Войти</button>
+          </div>
+        </form>
+        <div class="col-md-4 col-md-offset-4 col-sm-12">
+          <div style="width: 90%; height: 10px; border-bottom: 1px solid #8b9dc3; margin:10px 20px; text-align: center" >
+                              <span style=" background-color:#dfe3ee ; padding:0 15px" >
+                                или <!--Padding is optional-->
+                              </span>
+          </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4 col-sm-12" id="create-field">
+          <button type="submit" class="btn btn-default" id="create">Создать новый аккаунт</button>
+          <div id="help">Забыли пароль?  Справочный центр</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  Facebook @2017
+</div>
+
+</body>
+</html>

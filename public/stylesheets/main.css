@@ -1,0 +1,64 @@
+.title{
+  text-align: center;
+  background-color: #627aad;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .1));
+  color:white;
+  font-weight: bold;
+  font-size: 29px;
+  padding:3px 0 1px 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#bg{
+  background-color: #dfe3ee;
+}
+#email{
+  width: 100%;
+  border-bottom-left-radius:0px ;
+  border-bottom-right-radius: 0px;
+  border-bottom: none;
+  margin-top: 20px;
+  height: 45px;
+}
+#pwd{
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  height: 45px;
+}
+#submit{
+  width: 100%;
+  margin-top:10px;
+  background-color: #627aad;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .1));
+  color:white;
+  border-radius: 5px;
+  height: 40px;
+  font-weight: bold;
+}
+#create-field{
+  text-align: center;
+}
+#create{
+  width: 60%;
+  border-radius: 5px;
+  background: linear-gradient(#75ab4b, #4a8532);
+  border-color: #68954c #427329 #386a24;
+  margin-top:10px;
+  color:white;
+  font-weight: bold;
+}
+#help{
+  color:#627aad;
+  margin-top: 15px;
+  font-size: 12px;
+  margin-bottom: 35px;
+}
+#footer{
+  text-align: center;
+  font-size: 12px;
+  color:grey;
+  margin-top: 100px;
+}
+.form-group{
+  margin-bottom: 0px;
+}
